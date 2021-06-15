@@ -8,10 +8,14 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }*/
 .body{
-    background-color: blueviolet;
+    background-color: rgb(111, 106, 116);
+}
+.container-fluid{
+  background-color: rgb(100, 95, 104);
+  
 }
 .btn{
-    padding: 15px 25px;
+    padding: 10px 20px;
     font-size: 24px;
     text-align: center;
     cursor: pointer;
@@ -20,9 +24,9 @@
     background-color: #04AA6D;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 4px 9px rgb(63, 58, 58);
 }
-.btn:hover {background-color: #3e8e41}
+.btn:hover {background-color: #ff9900}
 
 .btn:active {
     background-color: #3e8e41;
@@ -34,9 +38,11 @@
     text-shadow: 2px 2px #422e2e;
   }
 
- footer {
+  footer {
     text-align: center;
     padding: 3px;
     background-color: DarkSalmon;
     color: white;
   }
+
+
