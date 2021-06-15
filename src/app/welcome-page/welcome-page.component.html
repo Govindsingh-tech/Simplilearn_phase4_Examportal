@@ -3,7 +3,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style="height: 100%;">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <br>
@@ -11,17 +11,33 @@
                 <img alt="" src="https://codesign.com.bd/conversations/content/images/2020/03/Sprint-logo-design-Codesign-agency.png">
                 <br>
                 <br>
-                <h1 class="mt">Welcome to the Online Quiz Portal</h1>
-                <h3 class="padded-text"><b>Please click "Start Exam" below to begin the asssesment. 
-                    Take time to answer each question with care as you will not be able to revisit
-                    a question once you submit it. Upon completion of the exam, you will be able to
-                    view your answers and your score.</b>
+                <h1 class="mt">Welcome to the Online Quiz Portal</h1><br>
+                <marquee behavior="scroll" bgcolor="yellow" loop="-1" width="100%">
+                    <i><b>
+                        This set of questions focuses on the statements in JavaScript.
+                    </b></i>
+                </marquee>
+                <h3 class="padded-text"><b>Please click "Start Exam" below to begin the asssesment.
+                        Take time to answer each question with care as you will not be able to revisit
+                        a question once you submit it. Upon completion of the exam, you will be able to
+                        view your answers and your score.</b>
                 </h3>
-                <p class="h5"></p>
+                <br>
+                <br>
                 <a routerLink='/questions'>
                     <button class="btn btn-success">Start Exam</button>
                 </a>
             </div>
         </div>
     </div>
+
+    <footer>
+        <p>Author: Govind Singh Rathore<br>
+        <a href="mailto:govindsingh45@gmail.com">govind@example.com</a></p>
+      </footer>
+
+    <!--<script language="javascript">
+        var today = new Date();
+document.getElementById('time').innerHTML=today.getDate;
+        </script>-->
 </body>
